@@ -1,4 +1,4 @@
-require pry
+require "pry"
 def roll_call_dwarves(dwarves)
   i = 0 
   count = 1
@@ -17,7 +17,7 @@ def summon_captain_planet(veggies)
     i += 1 
   end
   planeteer_calls
-  
+  binding.pry
 end
 
 def long_planeteer_calls# code an argument here
