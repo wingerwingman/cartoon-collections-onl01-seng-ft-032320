@@ -18,7 +18,7 @@ def summon_captain_planet(veggies)
   end
   planeteer_calls.map! {|name| name.capitalize + "!"}
 
-  binding.pry
+  # binding.pry
 end
 
 def long_planeteer_calls# code an argument here
