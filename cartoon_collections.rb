@@ -36,9 +36,5 @@ end
 def find_the_cheese#(cheddar_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  matches = []
-  cheddar_cheese.each do |i|
-    matches << i if i.cheddar?
-  end
-  matches
+  cheddar_cheese.detect{|i| i.
 end
