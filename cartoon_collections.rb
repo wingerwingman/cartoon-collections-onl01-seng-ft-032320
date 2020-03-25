@@ -16,7 +16,7 @@ def summon_captain_planet(veggies)
     planeteer_calls << veggies[i] 
     i += 1 
   end
-  planeteer_calls.map! {|name| name.capitalize }
+  planeteer_calls.map! {|name| name.capitalize + "!"}
 
   binding.pry
 end
