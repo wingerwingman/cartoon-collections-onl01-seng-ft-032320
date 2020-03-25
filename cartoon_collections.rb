@@ -1,8 +1,8 @@
-def roll_call_dwarves(names)
+def roll_call_dwarves(dwarves)
   i = 0 
   count = 1
-  while i < names.length 
-    puts "#{count} #{name[i]}"
+  while i < dwarves.length 
+    puts "#{count} #{dwarves[i]}"
     i += 1
   end
 end
