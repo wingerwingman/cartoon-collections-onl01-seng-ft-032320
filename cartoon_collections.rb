@@ -10,7 +10,7 @@ end
 
 def summon_captain_planet(veggies)
   i = 0 
-  planeteer_calls []
+  planeteer_calls = []
   while i < veggies.length
     planeteer_calls << veggies[i] 
     i += 1 
