@@ -36,12 +36,5 @@ end
 def find_the_cheese#(cheddar_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  i = 0 
-  while i < cheddar_cheese
-    if cheddar_cheese == "cheddar"
-      return cheddar
-    else
-      return nil
-    end
-  end
+  
 end
