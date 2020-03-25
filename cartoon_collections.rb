@@ -17,6 +17,9 @@ def summon_captain_planet(veggies)
     i += 1 
   end
   planeteer_calls.map! {|name| name.capitalize }
+  planeteer_calls.each_with_index.map do |element, index|
+    next element
+    element + "!"
   # binding.pry
 end
 
