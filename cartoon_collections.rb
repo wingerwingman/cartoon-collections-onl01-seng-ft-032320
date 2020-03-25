@@ -17,7 +17,7 @@ def summon_captain_planet(veggies)
     i += 1 
   end
   planeteer_calls
-  binding.pry
+  # binding.pry
 end
 
 def long_planeteer_calls# code an argument here
