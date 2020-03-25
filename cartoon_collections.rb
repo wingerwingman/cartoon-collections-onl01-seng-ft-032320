@@ -42,4 +42,6 @@ def find_the_cheese#(cheddar_cheese)
       return cheddar
     else
       return nil
+    end
+  end
 end
