@@ -16,7 +16,7 @@ def summon_captain_planet(veggies)
     planeteer_calls << veggies[i] 
     i += 1 
   end
-  planeteer_calls.each
+  planeteer_calls
   # binding.pry
 end
 
