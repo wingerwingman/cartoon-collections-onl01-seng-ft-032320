@@ -39,6 +39,8 @@ def find_the_cheese#(cheddar_cheese)
   matches = []
   cheddar_cheese.each do |i|
     matches << i if i.cheddar?
+  else
+    nil
   end
   matches
 end
